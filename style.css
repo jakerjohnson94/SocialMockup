@@ -1,9 +1,11 @@
 body {
   width: 850px;
   margin: 0 auto;
+  margin-bottom: 10px;
   background: lightgray;
   border-radius: 20px;
-  border: 2px solid rgb(199, 198, 198);
+ 
+  border-bottom: none;
  
   font-family: "IBM Plex Sans", sans-serif;
 }
@@ -29,6 +31,7 @@ button {
   bottom: 0;
   float: left;
   margin-left: 200px;
+
 }
 .footList {
   position: relative;
@@ -37,22 +40,26 @@ button {
   float: left;
 }
 header {
-  background-color: darkgoldenrod;
+  background-color: rgba(134, 51, 109, 0.8);
+
   color: white;
   height: 300px;
+  border: 1px solid rgb(199, 198, 198);
   position: relative;
 }
-footer {
+.foot {
   width: 850px;
   background: white;
+  border-bottom:  solid rgb(199, 198, 198);
 }
 
 .clear {
   clear: both;
+  margin: 10px;
 }
 
 .pic {
-  border: 1px solid rgb(141, 110, 42);
+  border: 1px solid rgba(56, 51, 43, 0.4);
   background-color: darkkhaki;
   height: 125pt;
   width: 125pt;
@@ -60,6 +67,7 @@ footer {
   left: 15px;
   bottom: -40px;
   z-index: 1;
+  background-image: URL(Travs.png);
 }
 .like {
   margin-right: 0.4em;
@@ -67,16 +75,85 @@ footer {
 
 h2 {
   font-weight: 100;
+  margin-bottom: 2em;
+  font-size: 1em;
+}
+h3{
+  margin: 10pt;
+  font-weight: 800;
 }
 .icon {
   width: 1em;
 }
 
-summary{
-    font-size: inherit;
-    content: "More";
+
+
+
+
+.leftCol {
+  width: 324px;
+  height: 250px;;
+  color: black;
+  background-color: white;
+  border: 2px solid rgb(199, 198, 198);
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
 }
 
-details{
+.rightCol {
+  width: 508px;
+  height: 350px;;
+  color: black;
+  background-color: white;
+  border: 2px solid rgb(199, 198, 198);
+  float: right;
+  margin-bottom: 10px;
+}
+
+
+.rightContent{
+  width: 508px;
+  height: 240px;
+  color:black;
+  background-color: rgba(134, 51, 109, 0.8);
+
+ margin: 10px auto;
+
+}
+
+
+main{
+  margin-top: 10px;
+}
+
+.greyLine{
+    height: 0;
+    border: 1px solid lightgray;
+   margin-top: 2em ;
   
+}
+.bottomInfoBoxLeft{
+height: 0;
+    border-: 1px solid gray;
+   margin-top:  10em;
+
+}
+.boxText{
+  margin-left: 10px;
+  margin-bottom: 0;
+}
+a{
+  margin: 0 auto;
+  text-decoration: none;
+}
+.LCSbar{
+  margin: 10pt;
+  float: left;
+  margin-top: 20;
+  
+}
+
+td {
+  position: relative;
 }
