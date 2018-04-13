@@ -1,7 +1,8 @@
 body {
   width: 850px;
-  margin: 0 auto;
+  margin: 25px auto;
   margin-bottom: 10px;
+
   background: lightgray;
   border-radius: 20px;
   border-bottom: none;
