@@ -1,5 +1,5 @@
 a {
-  /* margin: 0 auto; */
+margin: 0 auto;
   text-decoration: none;
   color: rgb(93, 30, 124);
 }
@@ -56,6 +56,44 @@ main {
 td {
   position: relative;
 }
+.bar {
+  margin: 10pt;
+  float: left;
+  margin-top: 10pt;
+}
+
+.bar2 {
+  margin: 0;
+  float: left;
+  margin-top: 7pt;
+  
+}
+
+.bar3 {
+  margin: 2pt;
+  float: left;
+  margin-top: 10pt;
+}
+
+.boxText {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 0;
+  margin-top: 0;
+  color: purple;
+}
+.boxTitle{
+ 
+    margin-left: 10px;
+    margin-bottom: 0;
+    color: slategray;
+  
+}
+.bottomInfoBoxLeft {
+  height: 0;
+  border-: 1px solid gray;
+  margin-top: 10em;
+}
 
 .btns {
   position: absolute;
@@ -63,11 +101,30 @@ td {
   bottom: 10px;
 }
 
-.headText {
-  position: absolute;
-  bottom: 0;
-  float: left;
-  margin-left: 200px;
+.clear {
+  margin: 10px;
+  clear: both;
+}
+
+
+.coverContent{
+
+  margin: 0;
+
+}  
+
+
+.dotIcon {
+  width: .3em;
+  opacity: .6;
+  
+}
+
+
+.greyLine {
+  height: 0;
+  border: 1px solid lightgray;
+  margin-top: 2.8em;
 }
 .foot {
   width: 850px;
@@ -82,10 +139,18 @@ td {
 }
 
 
-.clear {
-  margin: 10px;
-  clear: both;
+.headText {
+  position: absolute;
+  bottom: 0;
+  float: left;
+  margin-left: 200px;
 }
+.icon {
+  width: 1em;
+  margin-bottom: -.2em
+}
+
+
 
 .pic {
   border: 1px solid rgba(56, 51, 43, 0.4);
@@ -104,16 +169,8 @@ td {
 }
 
 
-.icon {
-  width: 1em;
-  margin-bottom: -.2em
-}
 
-.dotIcon {
-  width: .3em;
-  opacity: .6;
-  
-}
+
 
 .leftCol {
   width: 324px;
@@ -148,51 +205,5 @@ td {
 }
 
 
-.greyLine {
-  height: 0;
-  border: 1px solid lightgray;
-  margin-top: 2.8em;
-}
-.bottomInfoBoxLeft {
-  height: 0;
-  border-: 1px solid gray;
-  margin-top: 10em;
-}
-.boxText {
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-bottom: 0;
-  margin-top: 0;
-  color: purple;
-}
-.boxTitle{
- 
-    margin-left: 10px;
-    margin-bottom: 0;
-    color: slategray;
-  
-}
-.bar {
-  margin: 10pt;
-  float: left;
-  margin-top: 10pt;
-}
 
-.bar2 {
-  margin: 0;
-  float: left;
-  margin-top: 7pt;
-  
-}
 
-.bar3 {
-  margin: 2pt;
-  float: left;
-  margin-top: 10pt;
-}
-
-.coverContent{
-
-  margin: 0;
-;
-} 
