@@ -1,7 +1,19 @@
-a {
-margin: 0 auto;
+:root{
+  --clr-purple_main: rgb(93, 30, 124);
+  --clr-purple_bg: rgba(134, 51, 109, 0.8);
+  --clr-white_box: white;
+  --border-col: 2px solid rgb(199, 198, 198);
+  --right-width: 508px;
+  --left-width: 324px;
+  
+}
+
+
+
+a{
+  margin: 0 auto;
   text-decoration: none;
-  color: rgb(93, 30, 124);
+  color: var(--clr-purple_main);
 }
 
 body {
@@ -18,7 +30,7 @@ body {
 em{
   font-weight: bold;
   font-style: unset;
-  color: rgb(93, 30, 124);
+  color: var(--clr-purple_main);
 }
 
 
@@ -27,11 +39,11 @@ button {
 }
 
 header {
-  background-color: rgba(134, 51, 109, 0.8);
+  background-color: var(--clr-purple_bg);
 
-  color: white;
+  color: var(--clr-white_box);
   height: 300px;
-  border: 1px solid rgb(199, 198, 198);
+  border: var(--border-col);
   position: relative;
 }
 h2 {
@@ -91,7 +103,7 @@ td {
 }
 .bottomInfoBoxLeft {
   height: 0;
-  border-: 1px solid gray;
+  border: 1px solid gray;
   margin-top: 10em;
 }
 
@@ -108,7 +120,6 @@ td {
 
 
 .coverContent{
-
   margin: 0;
 
 }  
@@ -128,8 +139,8 @@ td {
 }
 .foot {
   width: 850px;
-  background: white;
-  border-bottom: solid rgb(199, 198, 198);
+  background: var(--clr-white_box);
+  border-bottom: var(--border-col);
 }
 .footList {
   position: relative;
@@ -173,31 +184,31 @@ td {
 
 
 .leftCol {
-  width: 324px;
+  width: var(--left-width);
   height: 250px;
   color: black;
-  background-color: white;
-  border: 2px solid rgb(199, 198, 198);
+  background-color: var(--clr-white_box);
+  border: var(--border-col);
   float: left;
   margin-right: 10px;
   margin-bottom: 10px;
 }
 
 .rightCol {
-  width: 508px;
+  width: var(--right-width);
   height: 350px;
   color: black;
-  background-color: white;
-  border: 2px solid rgb(199, 198, 198);
+  background-color: var(--clr-white_box);
+  border: var(--border-col);
   float: right;
   margin-bottom: 10px;
 }
 
 .rightContent {
-  width: 508px;
+  width: var(--right-width);
   height: 240px;
   color: black;
-  background-color: rgba(134, 51, 109, 0.8);
+  background-color: var(--clr-purple_bg);
   background-image: url(http://i0.kym-cdn.com/entries/icons/original/000/005/014/MyLittlePony.jpg);
   background-size: cover;
   margin: 10px auto;
